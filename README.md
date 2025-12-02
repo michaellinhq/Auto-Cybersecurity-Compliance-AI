@@ -36,6 +36,9 @@ This repository documents my journey in building **AI Agents** to automate compl
 * **Gate Reviews:** Cybersecurity checks must be added to existing APQP Gates.
 * **Traceability:** Requirements -> TARA -> Testing (Must be linked, just like V-Model).
 ## 🧠 My Structured Thinking: ISO 21434 Framework
+Markdown
+
+## 🧠 My Structured Thinking: ISO 21434 Framework
 
 ```mermaid
 mindmap
@@ -60,13 +63,15 @@ mindmap
       Incident Response
       OTA Updates SUMS
       Decommissioning
-```## 🌉 The "Compliance-Quality Bridge": Mapping ISO 21434 to IATF 16949
+```
 
-> **My Insight:** Cybersecurity is not a standalone island; it is an extension of Quality Management into the digital domain.
+## The "Compliance-Quality Bridge": Mapping ISO 21434 to IATF 16949
+My Insight: Cybersecurity is not a standalone island; it is an extension of Quality Management into the digital domain.
 
-```mermaid
+Code-Snippet
+```mermaid 
 graph LR
-    %% 定义样式
+    %% Define Styles
     classDef cyber fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
     classDef quality fill:#fff9c4,stroke:#fbc02d,stroke-width:2px;
     classDef bridge stroke:#999,stroke-width:2px,stroke-dasharray: 5 5;
@@ -87,18 +92,17 @@ graph LR
         Q4[<b>After-Sales / Warranty</b><br/>Recall & 8D Reports]:::quality
     end
 
-    %% 建立连接 (The Mapping Logic)
+    %% Logic Connections
     C1 <==>|Governance| Q1
     C2 <==>|Planning & Buying| Q2
     C3 <==>|Engineering| Q3
     C4 <==>|SOP & Service| Q4
 
-    %% 注释连接
+    %% Style Connections
     linkStyle 0,1,2,3 stroke:#ff5722,stroke-width:3px;
 ```
-
-## 🔄 Process Mapping: TARA vs Traditional Quality
-
+# Process Mapping: TARA vs Traditional Quality
+Code-Snippet
 ```mermaid
 graph TD
     subgraph "Traditional Quality (IATF 16949)"
@@ -117,4 +121,4 @@ graph TD
     C -.->|Similar Logic| G
     style F fill:#f9f,stroke:#333,stroke-width:4px
     style G fill:#bbf,stroke:#333,stroke-width:2px
-```
+    ```
