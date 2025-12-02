@@ -5,11 +5,25 @@
 **Status:** In Progress 🚧
 
 ## 🟢 Clause 5: Organizational Cybersecurity Management
-> *My Takeaway:* This is similar to the "Quality Management System" in IATF 16949 but for Security.
+> **My Insight:** This is the foundation. Without Clause 5, you cannot pass a UN R155 Audit. It maps directly to existing Quality Management Systems.
 
-* **Cybersecurity Policy:** Top management must sign off. (Just like Quality Policy).
-* **Roles & Responsibilities:** Who owns the risk? (Project Manager vs. Security Manager).
-* **Audit Requirement:** [TODO: Fill in how TARA audits differ from Process audits]
+### 1. Cybersecurity Governance
+* **Policy:** The organization must have a specific policy for cybersecurity, approved by top management. It's not just "IT's problem", it's a Board-level issue.
+* **Roles:** Distinct roles must be defined.
+    * *Example:* A "Cybersecurity Manager" must have the authority to stop a release if security requirements aren't met (Independence of authority).
+
+### 2. Cybersecurity Culture
+* This is a favorite topic for German auditors (TÜV).
+* **Key Question:** "How do you ensure every engineer cares about security?"
+* **Evidence:** Training records, awareness newsletters, clear escalation channels for reporting vulnerabilities.
+
+### 3. Management of the CSMS (Audit Ready)
+* **Process Definition:** You must have written procedures for TARA, Testing, and Incident Response.
+* **Tool Management:** If you use tools (like my Python scripts or Jira), they must be managed and validated.
+
+### 🎯 Connection to My CQM Experience
+* **IATF 16949 Analogy:** Just like we have a "Quality Manual", we need a "Cybersecurity Manual".
+* **Action Item:** When auditing a supplier, ask for their "Cybersecurity Policy" first. If they don't have one, they fail Clause 5 immediately.
 
 ## 🟡 Clause 15: Distributed Cybersecurity Activities (Supplier Management)
 > *Critical for Tier-1s.* This connects directly to UN R155 requirements for supply chain management.
