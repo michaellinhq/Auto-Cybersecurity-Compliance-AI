@@ -63,7 +63,7 @@ mindmap
       Decommissioning
 ```## 🔄 Process Mapping: TARA vs Traditional Quality
 
-```mermaid
+mermaid
 graph TD
     subgraph "Traditional Quality (IATF 16949)"
     A[Item Definition] --> B(DFMEA / PFMEA)
