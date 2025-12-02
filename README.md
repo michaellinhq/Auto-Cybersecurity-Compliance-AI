@@ -61,7 +61,7 @@ mindmap
       Incident Response
       OTA Updates (SUMS)
       Decommissioning
-```## 🔄 Process Mapping: TARA vs Traditional Quality
+## 🔄 Process Mapping: TARA vs Traditional Quality
 
 mermaid
 graph TD
