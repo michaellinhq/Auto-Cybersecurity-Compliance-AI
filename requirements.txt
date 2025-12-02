@@ -1,0 +1,5 @@
+langchain
+pip install langchain openai chromadb
+# from langchain.llms import OpenAI
+openai
+chromadb
