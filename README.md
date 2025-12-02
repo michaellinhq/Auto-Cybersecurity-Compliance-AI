@@ -61,4 +61,24 @@ mindmap
       Incident Response
       OTA Updates (SUMS)
       Decommissioning
+```## 🔄 Process Mapping: TARA vs Traditional Quality
+
+```mermaid
+graph TD
+    subgraph "Traditional Quality (IATF 16949)"
+    A[Item Definition] --> B(DFMEA / PFMEA)
+    B --> C{Risk Priority Number<br/>RPN}
+    C -->|High Risk| D[Corrective Action]
+    end
+
+    subgraph "Cybersecurity (ISO 21434)"
+    E[Asset Definition] --> F(TARA Analysis)
+    F --> G{Risk Value<br/>Impact x Feasibility}
+    G -->|Critical Risk| H[Mitigation / Defense]
+    end
+
+    B -.->|Similar Logic| F
+    C -.->|Similar Logic| G
+    style F fill:#f9f,stroke:#333,stroke-width:4px
+    style G fill:#bbf,stroke:#333,stroke-width:2px
 ```
