@@ -35,35 +35,36 @@ This repository documents my journey in building **AI Agents** to automate compl
 ## 📝 Integration with Quality (My Insights)
 * **Gate Reviews:** Cybersecurity checks must be added to existing APQP Gates.
 * **Traceability:** Requirements -> TARA -> Testing (Must be linked, just like V-Model).
-
-* ## 🧠 My Structured Thinking: ISO 21434 Framework
+## 🧠 My Structured Thinking: ISO 21434 Framework
 
 ```mermaid
 mindmap
   root((ISO/SAE 21434<br/>Cybersecurity))
-    Org Management<br/>(Clause 5)
+    Org Management
       Cybersecurity Policy
       Roles & Responsibilities
       Audit Mechanisms
-    Project Dependent<br/>(Clause 6)
+    Project Dependent
       TARA Planning
       Reuse Analysis
-      Supplier Mgmt (Clause 15)
+      Supplier Mgmt Clause 15
         CIAD Agreement
         Capability Check
-    TARA Core<br/>(Clause 15)
+    TARA Core
       Asset ID
       Threat Scenarios
-      Impact Rating (SFOP)
+      Impact Rating SFOP
       Attack Path Analysis
       Risk Treatment
-    Post-Development<br/>(Clause 13)
+    Post-Development
       Incident Response
-      OTA Updates (SUMS)
+      OTA Updates SUMS
       Decommissioning
+```
+
 ## 🔄 Process Mapping: TARA vs Traditional Quality
 
-mermaid
+```mermaid
 graph TD
     subgraph "Traditional Quality (IATF 16949)"
     A[Item Definition] --> B(DFMEA / PFMEA)
