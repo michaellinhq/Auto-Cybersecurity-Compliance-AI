@@ -60,6 +60,41 @@ mindmap
       Incident Response
       OTA Updates SUMS
       Decommissioning
+```## 🌉 The "Compliance-Quality Bridge": Mapping ISO 21434 to IATF 16949
+
+> **My Insight:** Cybersecurity is not a standalone island; it is an extension of Quality Management into the digital domain.
+
+```mermaid
+graph LR
+    %% 定义样式
+    classDef cyber fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+    classDef quality fill:#fff9c4,stroke:#fbc02d,stroke-width:2px;
+    classDef bridge stroke:#999,stroke-width:2px,stroke-dasharray: 5 5;
+
+    subgraph Cyber_World [🛡️ ISO/SAE 21434 World]
+        direction TB
+        C1[<b>Org Management</b><br/>Clause 5]:::cyber
+        C2[<b>Project Dependent</b><br/>Clause 6 & 15]:::cyber
+        C3[<b>TARA Methods</b><br/>Clause 8]:::cyber
+        C4[<b>Post-Development</b><br/>Clause 13]:::cyber
+    end
+
+    subgraph Quality_World [🏭 IATF 16949 / Quality World]
+        direction TB
+        Q1[<b>QMS / Quality Manual</b><br/>Company Policy & Audit]:::quality
+        Q2[<b>APQP Phase 1 & 2</b><br/>Project Plan & Supplier QAA]:::quality
+        Q3[<b>DFMEA / Risk Analysis</b><br/>Failure Mode & Effects]:::quality
+        Q4[<b>After-Sales / Warranty</b><br/>Recall & 8D Reports]:::quality
+    end
+
+    %% 建立连接 (The Mapping Logic)
+    C1 <==>|Governance| Q1
+    C2 <==>|Planning & Buying| Q2
+    C3 <==>|Engineering| Q3
+    C4 <==>|SOP & Service| Q4
+
+    %% 注释连接
+    linkStyle 0,1,2,3 stroke:#ff5722,stroke-width:3px;
 ```
 
 ## 🔄 Process Mapping: TARA vs Traditional Quality
